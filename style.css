@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(233, 161, 235);
+}
+.heading{
+    width: 100%;
+    margin: 0;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color:black;
+    padding: 10px;
+}
+.name_of_objects{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: coral;
+    padding: 10px;
+}
+label{
+    background-color: white;
+    color:brown;
+    width:30%;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+#Camera,#result {
+    border:2px solid white;
+    border-radius: 20 px;
+    width: 350px;
+    height: 300px;
+}
+#result_object_name, #result_object_accuracy {
+    font-size: 22px;
+    color:crimson;
+    font-weight: bold;
+}
